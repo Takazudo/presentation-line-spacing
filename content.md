@@ -18,13 +18,13 @@
 
 ---
 
-top...
+### Top
 
 <img src="imgs/1.png" alt="" width="700">
 
 ---
 
-bottom...  I want to kill it.
+### Bottom
 
 <img src="imgs/2.png" alt="" width="700">
 
@@ -65,7 +65,7 @@ Then we have more
 
 ---
 
-So, we have 20px+ spacing on top and bottom.
+We'll have 20px+ spacing on top and bottom.
 
 ![](imgs/3.png)
 
@@ -87,7 +87,7 @@ So, we have 20px+ spacing on top and bottom.
 
 ---
 
-Here's leading.
+Leading
 
 <img src="imgs/8.png" alt="" width="600">
 
@@ -100,7 +100,7 @@ Here's one line's height on browser.
 
 ----
 
-## So let's kill the line-spacing
+## How to kill it
 
 ---
 
@@ -118,7 +118,7 @@ Finally, we'll get `6.3px` height here.
 
 ---
 
-Then, let's move it.
+Slide it to upper
 
 <img src="imgs/12.png" alt="" width="600">
 
@@ -139,13 +139,13 @@ p:after {
 
 ---
 
-It was killed.
+### Top
 
 <img src="imgs/14.png" alt="" width="700">
 
 ---
 
-bottom also.
+### Bottom
 
 <img src="imgs/15.png" alt="" width="700">
 
@@ -175,13 +175,13 @@ p:after {
 
 ---
 
-same result.
+### Top
 
 <img src="imgs/14.png" alt="">
 
 ---
 
-bottom also.
+### Bottom
 
 <img src="imgs/15.png" alt="">
 
@@ -236,5 +236,5 @@ p {
 * More detailed spacing tweak is possible
 * Beautiful margin is awesome
 * CSS will be more complicated
-* Make sure that this technique<br>has some difference between browsers
+* Make sure that this technique<br>has some difference between browsers<br>(it may be ±1px)
 
