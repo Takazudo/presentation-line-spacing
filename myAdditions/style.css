@@ -1,0 +1,27 @@
+.reveal .slides>section,
+.reveal .slides>section>section {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.reveal p:first-child {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.reveal pre {
+  font-size: .9em;
+  line-height: 1.5;
+}
+
+.reveal pre code {
+  max-height: none;
+}
+.reveal p,
+.reveal li {
+  word-spacing: .1em;
+}
+.reveal p code,
+.reveal li code {
+  word-spacing: 0;
+}
